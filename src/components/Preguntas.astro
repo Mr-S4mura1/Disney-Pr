@@ -1,0 +1,344 @@
+---
+
+---
+
+<div class="preguntas">
+  <h1>Preguntas Frecuentes</h1>
+
+  <!-- PREGUNTAS UNO -->
+
+  <div class="preguntas_uno">
+    <button id="btn_mostrar">¿Que incluye Disney+? <i class="fa-solid fa-plus"></i></button>
+    <div class="preguntas_uno-container" id="mostrar_contenido">
+      <p>Beneficios de la suscripción a Disney+:</p>
+      <ul>
+        <li>Experiencia de entretenimiento exclusiva.</li>
+        <li>Las mejores historias de Disney, Pixar, Marvel, Star Wars y National Geographic, todo en un mismo lugar.</li>
+        <li>Descargas ilimitadas hasta en diez dispositivos compatibles.</li>
+        <li>Más de 300 títulos en 4K UHD y HDR.</li>
+        <li>Hasta cuatro pantallas a la vez: ¡disfrutan todos!</li>
+        <li>IMAX Enhanced: disponible en algunos títulos de Marvel y en todos los dispositivos compatibles con Disney+.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PREGUNTAS DOS -->
+
+  <div class="preguntas_dos">
+    <button id="btn_mostrar2">¿Ya tienes Disney+ o Star+ y quieres Combo+<i class="fa-solid fa-plus"></i></button>
+    <div class="preguntas_dos-container" id="mostrar_contenido2">
+      <p>Con Combo+:</p>
+      <ul>
+        <li>Descontaremos el valor de tu suscripción actual del precio de Combo+.</li>
+        <li>Si tienes una suscripción mensual, el valor que pagas mensualmente se descontará del precio final de Combo+.</li>
+        <li>
+          Por el momento, si tienes una suscripción anual a Disney+ y recibes la factura a través de Disney+, no puedes cambiarte
+          a Combo+. Comunícate con Atención al Cliente de Disney+ para más opciones.
+        </li>
+        <li>Te llegará un correo electrónico con el detalle de los cargos apenas confirmes el pago.</li>
+        <li>Recuerda que puedes cancelar en cualquier momento.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!--PREGUNTAS TRES  -->
+
+  <div class="preguntas_tres">
+    <button id="btn_mostrar3">¿Como puedo pagar? <i class="fa-solid fa-plus"></i></button>
+    <div class="preguntas_tres-container" id="mostrar_contenido3">
+      <p>
+        Puedes pagar con tarjeta de crédito, débito, Mercado Pago, PayPal o también a través de terceros, como Google Play Store,
+        App Store de Apple, Mercado Libre y proveedores locales de TV, telefonía e internet.
+      </p>
+    </div>
+  </div>
+
+  <!-- PREGUNTAS CUATRO -->
+
+  <div class="preguntas_cuatro">
+    <button id="btn_mostrar4">¿Como puedo ver el contenido 16+ y 18+? <i class="fa-solid fa-plus"></i></button>
+    <div class="preguntas_cuatro-container" id="mostrar_contenido4">
+      <p>
+        Con una suscripción a Disney+ en Latinoamérica, tienes que actualizar los controles parentales de tu perfil para acceder
+        al catálogo completo que incluye contenido 16+ y 18+. Puedes restringir el contenido así como agregar un PIN de bloqueo en
+        cada perfil. También puedes dejar los controles parentales como están y seguir disfrutando Disney+ en un ambiente 14+ con
+        la opción de modificarlos cuando quieras en Editar perfiles.
+      </p>
+    </div>
+  </div>
+
+  <!-- PREGUNTAS CINCO -->
+
+  <div class="preguntas_cinco">
+    <button id="btn_mostrar5">¿Donde puedo ver Disney+? <i class="fa-solid fa-plus"></i></button>
+    <div class="preguntas_cinco-container" id="mostrar_contenido5">
+      <p>
+        La aplicación de Disney+ está disponible en tu dispositivo móvil, navegador web, consola de videojuegos, decodificador y
+        Smart TV. Puedes ver <a href="#">la lista completa de dispositivos compatibles en el Centro de Ayuda.</a>
+      </p>
+    </div>
+  </div>
+  <div></div>
+
+  <!-- CODIGO DE JAVASCRIPT -->
+  <script is:inline>
+    var btn = document.getElementById("btn_mostrar");
+    var mostrar = document.getElementById("mostrar_contenido");
+
+    // Creamos la Funcion Click
+    btn.addEventListener("click", () => {
+      // Verificamos si el elemento está visible
+      if (mostrar.style.display === "block") {
+        // Lo ocultamos
+        mostrar.style.display = "none";
+      } else {
+        // Lo mostramos
+        mostrar.style.display = "block";
+      }
+    });
+
+    var btn2 = document.getElementById("btn_mostrar2");
+    var mostrar2 = document.getElementById("mostrar_contenido2");
+
+    // Creamos la Funcion Click
+    btn2.addEventListener("click", () => {
+      // Verificamos si el elemento está visible
+      if (mostrar2.style.display === "block") {
+        // Lo ocultamos
+        mostrar2.style.display = "none";
+      } else {
+        // Lo mostramos
+        mostrar2.style.display = "block";
+      }
+    });
+
+    var btn3 = document.getElementById("btn_mostrar3");
+    var mostrar3 = document.getElementById("mostrar_contenido3");
+
+    // Creamos la Funcion Click
+    btn3.addEventListener("click", () => {
+      // Verificamos si el elemento está visible
+      if (mostrar3.style.display === "block") {
+        // Lo ocultamos
+        mostrar3.style.display = "none";
+      } else {
+        // Lo mostramos
+        mostrar3.style.display = "block";
+      }
+    });
+
+    var btn4 = document.getElementById("btn_mostrar4");
+    var mostrar4 = document.getElementById("mostrar_contenido4");
+
+    // Creamos la Funcion Click
+    btn4.addEventListener("click", () => {
+      // Verificamos si el elemento está visible
+      if (mostrar4.style.display === "block") {
+        // Lo ocultamos
+        mostrar4.style.display = "none";
+      } else {
+        // Lo mostramos
+        mostrar4.style.display = "block";
+      }
+    });
+
+    var btn5 = document.getElementById("btn_mostrar5");
+    var mostrar5 = document.getElementById("mostrar_contenido5");
+
+    // Creamos la Funcion Click
+    btn5.addEventListener("click", () => {
+      // Verificamos si el elemento está visible
+      if (mostrar5.style.display === "block") {
+        // Lo ocultamos
+        mostrar5.style.display = "none";
+      } else {
+        // Lo mostramos
+        mostrar5.style.display = "block";
+      }
+    });
+  </script>
+</div>
+
+<style>
+  .preguntas {
+    margin: 80px 40px;
+  }
+
+  .preguntas h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  .fa-plus {
+    background-color: #13151d;
+  }
+
+  .preguntas_uno button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    background-color: #13151d;
+    border: none;
+    cursor: pointer;
+  }
+
+  .preguntas_uno-container {
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    display: none;
+    background-color: #13151d;
+  }
+
+  .preguntas_uno-container p {
+    background-color: #13151d;
+  }
+
+  .preguntas_uno-container ul li {
+    margin: 10px 40px;
+    background-color: #13151d;
+  }
+
+  .preguntas_uno-container ul {
+    margin: 10px 40px;
+    background-color: #13151d;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  /*                                PREGUNTAS DOS                               */
+  /* -------------------------------------------------------------------------- */
+
+  .preguntas_dos button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    background-color: #13151d;
+    border: none;
+    cursor: pointer;
+  }
+
+  .preguntas_dos-container {
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    display: none;
+    background-color: #13151d;
+  }
+
+  .preguntas_dos-container p {
+    background-color: #13151d;
+  }
+
+  .preguntas_dos-container ul li {
+    margin: 10px 40px;
+    background-color: #13151d;
+  }
+
+  .preguntas_dos-container ul {
+    background-color: #13151d;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  /*                               PREGUNTAS TRES                               */
+  /* -------------------------------------------------------------------------- */
+  .preguntas_tres button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    background-color: #13151d;
+    border: none;
+    cursor: pointer;
+  }
+
+  .preguntas_tres-container {
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    display: none;
+    background-color: #13151d;
+  }
+
+  .preguntas_tres-container p {
+    background-color: #13151d;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  /*                              PREGUNTAS CUATRO                              */
+  /* -------------------------------------------------------------------------- */
+
+  .preguntas_cuatro button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    background-color: #13151d;
+    border: none;
+    cursor: pointer;
+  }
+
+  .preguntas_cuatro-container {
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    display: none;
+    background-color: #13151d;
+  }
+
+  .preguntas_cuatro-container p {
+    background-color: #13151d;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  /*                               PREGUNTAS CINCO                              */
+  /* -------------------------------------------------------------------------- */
+
+  .preguntas_cinco button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    background-color: #13151d;
+    border: none;
+    cursor: pointer;
+  }
+
+  .preguntas_cinco-container {
+    font-size: 20px;
+    width: 100%;
+    display: none;
+    background-color: #13151d;
+    padding: 20px;
+  }
+
+  .preguntas_cinco-container p {
+    background-color: #13151d;
+  }
+
+  .preguntas_cinco-container a {
+    background-color: #13151d;
+  }
+</style>

@@ -1,0 +1,30 @@
+---
+interface Props {
+  title: string;
+  content?: string;
+}
+
+const { title } = Astro.props;
+const { content } = Astro.props;
+// Estilos
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico"
+    />
+    <meta name="description" content={content} />
+    <script src="https://kit.fontawesome.com/cf1ad10ff3.js" crossorigin="anonymous"></script>
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
