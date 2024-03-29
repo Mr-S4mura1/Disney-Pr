@@ -1,5 +1,5 @@
 <center>
-  <strong>Developer Disney + (Front-End)</strong>
+  <strong> - Developer Disney + (Front-End)</strong>
 </center>
 
 Este es uno de los proyectos que desarrolle con Astro, ciendo la misma pagina web de Disney + <br>
