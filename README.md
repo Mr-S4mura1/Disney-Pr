@@ -1,4 +1,6 @@
-<center><strong>Developer Disney + (Front-End)</strong></center>
+<center>
+  <strong>Developer Disney + (Front-End)</strong>
+</center>
 
 Este es uno de los proyectos que desarrolle con Astro, ciendo la misma pagina web de Disney + <br>
 Nota: Esta web solo es lo estetico, no contiene funciones adicionales.
